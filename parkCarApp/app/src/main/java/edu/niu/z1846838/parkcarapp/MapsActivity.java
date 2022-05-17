@@ -38,20 +38,6 @@ import java.util.List;
 
 import edu.niu.z1846838.parkcarapp.databinding.ActivityMapsBinding;
 
-/*****************
- *
- *  CSCI 428-1       Wheres My Car App            SPRING 2022
- *
- *  CLASS NAME: MapsActivity.java
- *
- *  Developers: Vanessa Aguilar (Z1846838)
- *              Eriq Walker     (Z1908120)
- *  DUE DATE:  04/14/2022
- *  PURPOSE: This app will allow user to see his/her location on a map and using
- *           google map api. Will be given the option to add a marker on the map
- *           that will mark the cars location with an address. The user can remove
- *           or move the marker and get directions to the marker.
- */
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback,
         GoogleMap.OnMarkerDragListener {
 
